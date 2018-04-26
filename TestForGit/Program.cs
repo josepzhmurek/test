@@ -6,7 +6,7 @@ namespace TestForGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi git! Hi github! Please go! PLEASE!!!");
+            Console.WriteLine("Hi git! Hi github! Please go! PLEASE!!! PLEASE");
             Console.ReadKey();
         }
     }
