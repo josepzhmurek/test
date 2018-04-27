@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TestForGit.Classes;
 
 namespace TestForGit
 {
@@ -6,8 +11,11 @@ namespace TestForGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi git! Hi github! Please go! PLEASE!!! PLEASE plov");
-            Console.ReadKey();
+            ChockolateCandy p = new ChockolateCandy("Мишка на сервере", 20, 10);
+
+            p.Write(p.Name);
+
         }
-    }
+
+   }
 }
